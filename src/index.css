@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
+}
+
+.container {
+  display: flex;
+  gap: 4em;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  border-radius: 999px;
+}
+
+.item1 {
+  background-color: var(--primary);
+}
+
+.item2 {
+  background-color: var(--secondary);
+}
+
+.item3 {
+  background-color: var(--tertiary);
+}
+
+button {
+  width: 200px;
+  height: 40px;
+  font-size: 1.5em;
+  background-color: var(--surface1);
+  border: 1px solid #555;
+  border-radius: 5px;
+  color: var(--element1);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--surface2);
+  color: var(--element1);
+}
