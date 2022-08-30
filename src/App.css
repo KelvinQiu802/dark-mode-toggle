@@ -26,12 +26,6 @@
   --tertiary: #eee8a9;
 }
 
-html {
-  width: 100vw;
-  height: 100vh;
-  background-color: var(--surface1);
-}
-
 .App {
   background-color: var(--surface1);
   transition: 0.2s;
